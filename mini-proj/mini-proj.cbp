@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mini-proj" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/mini-proj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/mini-proj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/INSTRUMENT.h" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/btree.h" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/btreenode.h" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/bufferfile.h" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/color.h" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/index.h" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/indexfile.h" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/instrument-index.txt" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/instrument-list.txt" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/iobuffer.h" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/main.cpp" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/main.exe" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/recfile.h" />
+		<Unit filename="../../Aditya Hackerearth/FS Mini Project/min_proj/MUSIC-INSTRUMENT-MANAGEMENT-master/MUSIC-INSTRUMENT-MANAGEMENT-master/utils.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
